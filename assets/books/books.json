@@ -1,0 +1,370 @@
+[
+  {
+    "fiksi": [
+      {
+        "id": 1,
+        "title": "Dune: Bagian 1",
+        "author": "Frank Herbert",
+        "price": 103200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/3/26/ih86gbr4urzmibs3ah49hq__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 129000
+      },
+      {
+        "id": 2,
+        "title": "Balada Burung Penyanyi Dan Ular (The Ballad Of Songbirds & S",
+        "author": "Suzanne Collins",
+        "price": 119200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/10/29/6d5gkl4aordzexxn5yhuly__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 149000
+      },
+      {
+        "id": 3,
+        "title": "Tragedi Pedang Keadilan",
+        "author": "Keigo Higashino",
+        "price": 103200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/12/21/tby9brfujqaukgjej2mypv__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 129000
+      },
+      {
+        "id": 4,
+        "title": "Panggil Aku Kartini Saja",
+        "author": "Pramoedya Ananta Toer",
+        "price": 90000,
+        "image": "https://cdn.gramedia.com/uploads/items/PANGGIL-AKU-KARTINI-SAJA-ed__w149_hauto.jpg",
+        "discount": "",
+        "base-price": ""
+      },
+      {
+        "id": 5,
+        "title": "City Lite: Best Of Us",
+        "author": "Pradnya Paramitha",
+        "price": 92000,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/11/10/e8zjhlfbuhtjhuhoxy5n8v__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 115000
+      },
+      {
+        "id": 6,
+        "title": "Namaku Alam",
+        "author": "Leila S. Chudori",
+        "price": 90000,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/8/6/bxqnqtge7fycg3qkbshg5k__w149_hauto.png",
+        "discount": "25%",
+        "base-price": 120000
+      },
+      {
+        "id": 7,
+        "title": "Cantik Itu Luka (Edisi 20 Tahun)",
+        "author": "Eka Kurniawan",
+        "price": 142400,
+        "image": "https://cdn.gramedia.com/uploads/items/Cantik_Itu_Luka_20_HC__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 178000
+      },
+      {
+        "id": 8,
+        "title": "Pod:Kronik Betawi (Sebuah Novel)",
+        "author": "Ratih Kumala",
+        "price": 98000,
+        "image": "https://cdn.gramedia.com/uploads/items/ID_GPU2013MTH05KBET_C__w149_hauto.jpg",
+        "discount": "",
+        "base-price": ""
+      },
+      {
+        "id": 9,
+        "title": "Gong Nyai Gandrung",
+        "author": "Sekar Ayu Asmara",
+        "price": 56000,
+        "image": "https://cdn.gramedia.com/uploads/items/9786020646398_gong_nyai_gandrung_cov__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 70000
+      },
+      {
+        "id": 10,
+        "title": "Ronggeng Dukuh Paruk (Edisi Cover Spesial HUT GPU 50 Tahun)",
+        "author": "Ahmad Tohari",
+        "price": 87200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2024/3/20/32qwzzvuytdeheacijxac6__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 109000
+      },
+      {
+        "id": 11,
+        "title": "Like A Momentary Ray Between Clouds",
+        "author": "MAMI SUNADA",
+        "price": 65600,
+        "image": "https://cdn.gramedia.com/uploads/items/9786230305535__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 82000
+      },
+      {
+        "id": 12,
+        "title": "Book's Kitchen",
+        "author": "Kim Jee-Hye",
+        "price": 63200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2024/5/19/o5vz9ag3myjih5jgavnn4e__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 79000
+      },
+      {
+        "id": 13,
+        "title": "Semua Ikan di Langit",
+        "author": "Ziggy Zeszyazeoviennazabrizkie",
+        "price": 87200,
+        "image": "https://cdn.gramedia.com/uploads/items/Cover_Semua_Ikan_di_Langit_page-0001__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 109000
+      },
+      {
+        "id": 14,
+        "title": "Chezalova",
+        "author": "Hau",
+        "price": 98000,
+        "image": "https://cdn.gramedia.com/uploads/products/z8o6cv7xzl__w149_hauto.jpg",
+        "discount": "",
+        "base-price": ""
+      },
+      {
+        "id": 15,
+        "title": "Metropop: Jakarta Rock 'N' Roll",
+        "author": "Sekar Ayu Asmara",
+        "price": 54400,
+        "image": "https://cdn.gramedia.com/uploads/items/9786020644516_Jakarta_rock_n_roll_cov__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 68000
+      },
+      {
+        "id": 16,
+        "title": "The Yearling",
+        "author": "Marjorie Kinnan Rawlings",
+        "price": 77600,
+        "image": "https://cdn.gramedia.com/uploads/items/THE_YEARLING__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 97000
+      },
+      {
+        "id": 17,
+        "title": "Haikyu!! Fly High! Volleyball! 08",
+        "author": "Haruichi Furudate",
+        "price": 25600,
+        "image": "https://cdn.gramedia.com/uploads/items/9786024284244_haikyu_-fly-high_-volleyball_-08__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 32000
+      },
+      {
+        "id": 18,
+        "title": "Guys Read: The Warlords of Recess",
+        "author": "Eric S. Nylund",
+        "price": 16000,
+        "image": "https://ebooks.gramedia.com/ebook-covers/27588/general_small_covers/ID_HCO2015MTH10GRTWOR.jpeg",
+        "discount": "",
+        "base-price": ""
+      },
+      {
+        "id": 19,
+        "title": "Lima Penyintas (Five Survive)",
+        "author": "Holly Jackson",
+        "price": 87200,
+        "image": "https://cdn.gramedia.com/uploads/products/1v0xir66vt__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 109000
+      },
+      {
+        "id": 20,
+        "title": "Karacotah Rumah Teka-Teki",
+        "author": "Tasya Amelia",
+        "price": 88000,
+        "image": "https://cdn.gramedia.com/uploads/products/6e5-e1r5hk__w149_hauto.jpg",
+        "discount": "",
+        "base-price": ""
+      }
+    ]
+  },
+  {
+    "filsafat": [
+      {
+        "id": 1,
+        "title": "Filosofi Teras (New Cover)",
+        "author": "HENRY MANAMPIRING",
+        "price": 97200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/11/27/kjf6cgigkomf6sy9o5qauu__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 108000
+      },
+      {
+        "id": 2,
+        "title": "Seni Berperang Sun Tzu",
+        "author": "Amber Books",
+        "price": 112000,
+        "image": "https://cdn.gramedia.com/uploads/items/9786020400624_seni-berperang-sun-tzu__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 140000
+      },
+      {
+        "id": 3,
+        "title": "Filsafat Politik: Apa Dan Bagaimana",
+        "author": "Jonathan Floyd",
+        "price": 119200,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/9/18/k8art5mbjqyj8ljdzpduwm__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 149000
+      },
+      {
+        "id": 4,
+        "title": "Manusia Stoik: Sebuah Obat Depresi & Penawar Ekspektasi",
+        "author": "Dewi Indra P.",
+        "price": 67575,
+        "image": "https://cdn.gramedia.com/uploads/items/img20220815_11553439__w149_hauto.jpg",
+        "discount": "15%",
+        "base-price": 79500
+      },
+      {
+        "id": 5,
+        "title": "Filsafat Untuk Pemalas",
+        "author": "Ach Dhofir Zuhry",
+        "price": 86400,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2024/6/7/msxhjorjhph2udz3hqvcct__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 108000
+      },
+      {
+        "id": 6,
+        "title": "Filsafat dan Filsafat Ilmu",
+        "author": "Isfaroh, M.Ag.",
+        "price": 58225,
+        "image": " https://cdn.gramedia.com/uploads/picture_meta/2024/6/20/w7hnyunaawvo3vxpnebnti__w149_hauto.jpg",
+        "discount": "15%",
+        "base-price": 68500
+      },
+      {
+        "id": 7,
+        "title": "Fenomenologi Jiwa",
+        "author": "G.W.F. Hegel",
+        "price": 123675,
+        "image": " https://cdn.gramedia.com/uploads/picture_meta/2024/6/7/ijzhrxdwxyj4wduemrqzjn__w149_hauto.jpg",
+        "discount": "15%",
+        "base-price": 145500
+      },
+      {
+        "id": 8,
+        "title": "How To Run A Country",
+        "author": "Marcus Tullius Cicero",
+        "price": 72000,
+        "image": " https://cdn.gramedia.com/uploads/picture_meta/2023/7/24/6uqmyan3wj7cbnyrgygzqe__w149_hauto.jpg",
+        "discount": "20%",
+        "base-price": 90000
+      },
+      {
+        "id": 9,
+        "title": "Dasar-Dasar Filsafat Barat",
+        "author": "Nigel Warburton",
+        "price": 76500,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/12/23/hpgjh4kvyd3vlppsgi7siq__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 85000
+      },
+      {
+        "id": 10,
+        "title": "Filosofi Teras",
+        "author": "Henry Manampiring",
+        "price": 112500,
+        "image": "https://cdn.gramedia.com/uploads/items/filosofi_teras_hc__w149_hauto.png",
+        "discount": "10%",
+        "base-price": 125000
+      },
+      {
+        "id": 11,
+        "title": "Homo Sacer",
+        "author": "GIORGIO AGAMBEN",
+        "price": 76500,
+        "image": "https://cdn.gramedia.com/uploads/items/HOMO_SACER__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 85000
+      },
+      {
+        "id": 12,
+        "title": "Who Rules The World? (Republish)",
+        "author": "Noam Chomsky",
+        "price": 88200,
+        "image": "https://cdn.gramedia.com/uploads/items/Who_Rules_The_World__Republish__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 98000
+      },
+      {
+        "id": 13,
+        "title": "Anatomi Pemikiran Sigmund Freud & Carl Jung",
+        "author": "Rika Febriani",
+        "price": 33575,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2024/6/20/babxtmnhzpdcb2f64b8rpj__w149_hauto.jpg",
+        "discount": "15%",
+        "base-price": 39500
+      },
+      {
+        "id": 14,
+        "title": "The Philosophy Of The Moon",
+        "author": "Carrin Fu",
+        "price": 89100,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2024/1/19/8whgdjsza7s6egh23ppeav__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 99000
+      },
+      {
+        "id": 15,
+        "title": "Retorika Seni Berbicara",
+        "author": "Aristoteles",
+        "price": 90000,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/12/22/xapzsvrzhorwgkeak4y7uu__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 100000
+      },
+      {
+        "id": 16,
+        "title": "Pastoral Konseling Dan Kesehatan Mental",
+        "author": "Dr. Siswanto, M.Si., Psikolog Dan Pdt. Em. Prof. Dr. Mesach Krisetya, M.Th.",
+        "price": 75600,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/10/26/hdyedwopmzc5tsvcujce73__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 84000
+      },
+      {
+        "id": 17,
+        "title": "Filsafat Pendidikan",
+        "author": "Dr. H. Furtasan Ali Yususf, S.E., S.Kom., M.M. dkk",
+        "price": 109650,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/7/26/mzwvhysdvagzamvdd2ffv5__w149_hauto.jpg",
+        "discount": "15%",
+        "base-price": 129000
+      },
+      {
+        "id": 18,
+        "title": "Finishing Well - Meninggalkan Warisan Abadi",
+        "author": "Martin Muslie",
+        "price": 44100,
+        "image": "https://cdn.gramedia.com/uploads/picture_meta/2023/6/14/wpjws5dyr6zavltvpnugyt__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 49000
+      },
+      {
+        "id": 19,
+        "title": "Manusia Jawa Modern Sebuah Filsafat Budaya Dan Psiko",
+        "author": "Hadi Supeno",
+        "price": 45000,
+        "image": "https://cdn.gramedia.com/uploads/items/manusia_jawa_modern__w149_hauto.jpg",
+        "discount": "10%",
+        "base-price": 50000
+      },
+      {
+        "id": 20,
+        "title": "TAKTIS UKMPPD",
+        "author": "Dr. Fatkhur Ruli Malik Qilsi, Dkk.",
+        "price": 175000,
+        "image": "https://cdn.gramedia.com/uploads/items/9786023570508_taktis-ukmppd__w149_hauto.jpg",
+        "discount": "",
+        "base-price": ""
+      }
+    ]
+  }
+]

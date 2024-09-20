@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Kupang Book Shop | Home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <h1 class="logo-text"><i class="bx bxs-book-reader"></i> KBS</h1>
+      <div class="navbar">
+        <div class="search-bar">
+          <form action="">
+            <input type="text" placeholder="Cari Judul buku, Penulis" />
+            <button type="submit"><i class="bx bx-search-alt"></i></button>
+          </form>
+        </div>
+        <div class="navlist">
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li>
+              <a href="#"><i class="bx bx-cart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- end navbar -->
+
+    <!-- benner section -->
+    <section class="container-benner">
+      <!-- slider start -->
+      <div data-aos="fade-right" class="slider">
+        <div class="slides">
+          <!-- Slider Picture -->
+          <div class="slide">
+            <img
+              src="./assets/image/benner-slider/hero-slider01.png"
+              alt="Image 1"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/image/benner-slider/hero-slider02.png"
+              alt="Image 2"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/image/benner-slider/hero-slider03.png"
+              alt="Image 3"
+            />
+          </div>
+          <!-- End slider picture -->
+        </div>
+
+        <!-- Navigation arrow for slider -->
+        <a class="prev" onclick="moveSlide(-1)"
+          ><i class="bx bxs-chevron-left"></i
+        ></a>
+        <a class="next" onclick="moveSlide(1)"
+          ><i class="bx bxs-chevron-right"></i
+        ></a>
+        <!-- End navigation arrow for slider -->
+
+        <!-- Navigation dot for slider -->
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!-- End navigation dot for slider -->
+      </div>
+      <!-- End slider -->
+
+      <!-- Benner picture -->
+      <div class="benners">
+        <div data-aos="fade-left" data-aos-delay="500" class="benner-up">
+          <img src="./assets/image/benner-slider/hero-benner1.jpg" alt="" />
+        </div>
+        <div data-aos="fade-left" data-aos-delay="500" class="benner-down">
+          <img src="./assets/image/benner-slider/hero-benner2.jpg" alt="" />
+        </div>
+      </div>
+      <!-- End benner picture -->
+    </section>
+    <!-- End benner section -->
+
+    <!-- Service section -->
+    <section class="service">
+      <a href="" class="content">
+        <img src="./assets/icon/book-stack.png" alt="" />
+        <p class="text-caption">Buku Pilihan</p>
+      </a>
+      <a href="#" class="content">
+        <img src="./assets/icon/book.png" alt="" />
+        <p class="text-caption">Buku Populer</p>
+      </a>
+      <a href="#" class="content">
+        <img src="./assets/icon/e-book.png" alt="" />
+        <p class="text-caption">E-book Pilihan</p>
+      </a>
+      <a href="#" class="content">
+        <img src="./assets/icon/read.png" alt="" />
+        <p class="text-caption">Buku Anak</p>
+      </a>
+      <a href="#" class="content">
+        <img src="./assets/icon/world-book-day.png" alt="" />
+        <p class="text-caption">Buku International</p>
+      </a>
+      <a href="#" class="content">
+        <img src="./assets/icon/book-club.png" alt="" />
+        <p class="text-caption">Komunitas Membaca</p>
+      </a>
+    </section>
+    <!-- End service section -->
+
+    <!-- Separator recomendation books -->
+    <div class="separator">
+      <p class="caption">Rekomendasi Untukmu</p>
+      <a href="#">Lihat semua</a>
+    </div>
+    <!-- End separator recomendation books -->
+
+    <!-- Recomendation books section -->
+    <section class="book-recomendation">
+      <button class="arrow left" id="scroll-left">
+        <i class="bx bxs-chevron-left"></i>
+      </button>
+      <div class="horizontal-scroll">
+        <div class="container"></div>
+      </div>
+      <!-- end books recomendation card -->
+      <button class="arrow right" id="scroll-right">
+        <i class="bx bxs-chevron-right"></i>
+      </button>
+    </section>
+    <!-- End recomendation books section -->
+
+    <!-- Separator philoshopy books -->
+    <div class="separator">
+      <p class="caption">Buku Filsafat Pilihan</p>
+      <a href="#">Lihat semua</a>
+    </div>
+    <!-- End separator philoshopy books -->
+
+    <!-- Philoshopy books section -->
+    <section class="display-philoshopy-books">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        class="container-grid"
+      ></div>
+    </section>
+    <!-- End philoshopy books section -->
+
+    <!-- Separator fiction books -->
+    <div class="separator">
+      <p class="caption">Buku Fiksi Pilihan</p>
+      <a href="#">Lihat semua</a>
+    </div>
+    <!-- End separator fiction books -->
+
+    <!-- Fiction books section-->
+    <section class="display-fiction-books">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        class="container-grid"
+      ></div>
+    </section>
+    <!-- End fiction books section-->
+
+    <!-- Separator penerbit pilihan -->
+    <div class="separator">
+      <p class="caption">Penerbit Pilihan</p>
+    </div>
+    <!-- End separator penerbit pilihan -->
+
+    <!-- Logo penerbit pilihan -->
+    <section class="logo-container">
+      <div class="logo">
+        <img src="/assets/image/publisher/kgp.jpg" alt="" />
+      </div>
+      <div class="logo">
+        <img src="/assets/image/publisher/mnc.png" alt="" />
+      </div>
+      <div class="logo">
+        <img src="/assets/image/publisher/alex.jpg" alt="" />
+      </div>
+      <div class="logo">
+        <img src="/assets/image/publisher/penguin.png" alt="" />
+      </div>
+      <div class="logo">
+        <img src="/assets/image/publisher/Logo_BIP.jpeg" alt="" />
+      </div>
+      <div class="logo">
+        <img src="/assets/image/publisher/logo.png" alt="" />
+      </div>
+    </section>
+    <!-- End logo penerbit pilihan -->
+
+    <!-- Separator Blog -->
+    <div class="separator">
+      <p class="caption">Blog Kupang Book Shop</p>
+      <a href="#">Lihat semua</a>
+    </div>
+    <!-- End separator blog -->
+
+    <!-- Blog secton -->
+    <section class="blog-container">
+      <!-- Left blog content -->
+      <div
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="left-blog-content"
+      >
+        <img src="/assets/image/blog/blog1.jpg" alt="" />
+        <p class="topic">Produktif</p>
+        <h4 class="title">Menjadi remaja yang produktif dengan book club</h4>
+        <span class="date-publish">02 Agustus 2024</span>
+      </div>
+      <!-- End left blog content -->
+
+      <!-- Right blog content -->
+      <div class="right-blog-content">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="content-list"
+        >
+          <img src="/assets/image/blog/blog2.jpg" alt="" />
+          <div class="text-content">
+            <p class="topic">Membaca Buku</p>
+            <h4 class="title">Penting untuk mengajak anak membaca</h4>
+            <span class="date-publish">14 Mei 2024</span>
+          </div>
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="content-list"
+        >
+          <img src="/assets/image/blog/blog3.jpg" alt="" />
+          <div class="text-content">
+            <p class="topic">Teknologi & Membaca</p>
+            <h4 class="title">Teknologi dan membaca</h4>
+            <span class="date-publish">28 April 2024</span>
+          </div>
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="content-list"
+        >
+          <img src="/assets/image/blog/blog4.jpg" alt="" />
+          <div class="text-content">
+            <p class="topic">Teknologi & Membaca</p>
+            <h4 class="title">Manfaat teknologi untuk urusan membaca</h4>
+            <span class="date-publish">12 Januari 2024</span>
+          </div>
+        </div>
+      </div>
+      <!-- Eng right blog content -->
+    </section>
+    <!-- End blog secton -->
+
+    <!-- Sign-up section -->
+    <section class="sign-up">
+      <h2 class="caption">Penawaran menarik menanti anda di setiap harinya</h2>
+      <form action="">
+        <input
+          type="email"
+          name=""
+          class="input-email"
+          placeholder="Masukan email anda disini"
+        />
+        <button type="submit" class="btn-email">Daftar</button>
+      </form>
+    </section>
+    <!-- End sign-up section -->
+
+    <!-- Footer section -->
+    <footer>
+      <div class="cols">
+        <div class="link-col">
+          <h4>Produk Kupang Book Shop</h4>
+          <a href="#">Kupang Book Shop Affiliate</a>
+          <a href="#">Mitra Kupang Book Shop</a>
+        </div>
+        <div class="link-col">
+          <h4>Belanja</h4>
+          <a href="#">Belanja</a>
+          <a href="#">Pembayaran</a>
+          <a href="#">Pengiriman</a>
+        </div>
+        <div class="link-col">
+          <h4>Tentang Kupang Book Shop</h4>
+          <a href="#">Tentang Kami</a>
+          <a href="#">Toko Kami</a>
+          <a href="#">Kerjasama</a>
+        </div>
+        <div class="link-col">
+          <h4>Lainnya</h4>
+          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Kebijakan & Privasi</a>
+          <a href="#">Bantuan</a>
+          <a href="#">Hubungi Kami</a>
+        </div>
+      </div>
+      <!-- social media -->
+      <div class="sosmed-container">
+        <h4>Koneksikan diri Anda dengan Kupang Book Shop</h4>
+        <div class="wrapper">
+          <a href="#"><img src="/assets/icon/x.png" alt="" /></a>
+          <a href="#"><img src="/assets/icon/instagram.png" alt="" /></a>
+          <a href="#"><img src="/assets/icon/facebook.png" alt="" /></a>
+          <a href="#"><img src="/assets/icon/youtube.png" alt="" /></a>
+        </div>
+      </div>
+      <!-- copy right -->
+      <div class="copyright">©2024 Kupang Book Shop</div>
+    </footer>
+    <!-- End footer section -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/js/LoadBook.js" defer></script>
+    <script src="./assets/js/Animation.js" defer></script>
+  </body>
+</html>
